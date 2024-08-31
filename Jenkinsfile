@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('why'){
             steps {
-                echo "${env}"
+                echo "${branchName}"
+                echo "${env.branchName}"
             }
         }
         stage('Outer Stage 1') {
