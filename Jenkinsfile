@@ -1,4 +1,4 @@
-pipeline { 
+pipeline {   
     agent any
     stages { 
         stage('Outer Stage 1') {
