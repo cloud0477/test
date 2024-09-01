@@ -1,6 +1,6 @@
 pipeline {
     agent any   
-    stages {
+    stages { 
         stage('Outer Stage 1') {
             when {
                 branch 'develop'
