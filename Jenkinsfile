@@ -1,12 +1,6 @@
 pipeline {
     agent any
     stages {
-        stage('why'){
-            steps {
-                echo "${branchName}"
-                echo "${env.branchName}"
-            }
-        } 
         stage('Outer Stage 1') {
             when {
                 branch 'develop'
