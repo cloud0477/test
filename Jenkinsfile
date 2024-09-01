@@ -6,7 +6,7 @@ pipeline {
                 echo "${branchName}"
                 echo "${env.branchName}"
             }
-        }
+        } 
         stage('Outer Stage 1') {
             when {
                 branch 'develop'
