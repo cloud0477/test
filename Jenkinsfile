@@ -1,5 +1,5 @@
 pipeline {
-    agent any 
+    agent any   
     stages {   
         stage('Outer Stage 1') {
             when {
